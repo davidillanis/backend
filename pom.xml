@@ -9,6 +9,8 @@
 	</parent>
 	<modules>
 		<module>microservice-eureka</module>
+		<module>microservice-gateway</module>
+
 		<module>microservice-test1</module>
 	</modules>
 
