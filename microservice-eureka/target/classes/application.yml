@@ -1,0 +1,19 @@
+# spring.application.name=microservice-eureka
+
+server:
+  port: 8761
+
+spring:
+  application:
+    name: microservice-eureka
+  config:
+    import: optional:configserver:http://localhost:8888
+
+eureka:
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
+  server:
+    enableSelfPreservation: false
+
+
