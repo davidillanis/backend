@@ -9,6 +9,7 @@
 	</parent>
 	<modules>
 		<module>microservice-eureka</module>
+		<module>microservice-test1</module>
 	</modules>
 
 	<groupId>com</groupId>
