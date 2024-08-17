@@ -1,1 +1,2 @@
 org/microservice/gateway/MicroserviceGatewayApplication.class
+org/microservice/gateway/configuration/CorsConfiguration.class
